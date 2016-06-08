@@ -1,3 +1,5 @@
 This is the code I wrote as part of my master's dissertation. It is an agent-based model simulating the spread and propagation of risk perceptions through a network of social agents. The agents are placed in a Barabasi-Albert graph when, at a specified point in time, a risk signal is injected into the in-silico community to model an attack or technical failure in the power grid. The agents, the government, and the media then communicate about the event and thus spread risk perceptions. The simulation records at every time step the level of risk perceived by individual agents, and allows simulating different types of scenarios of communications strategies, severity of hazard event, etc.
 
 I wrote this almost two years ago; if I wrote it again today, it would probably look a bit different in terms of implementation. 
+
+Note that the repo does not include the R code I wrote to analyse some of the data produced by the model.
